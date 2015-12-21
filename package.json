@@ -1,0 +1,27 @@
+{
+  "name": "parse-it",
+  "version": "1.0.0",
+  "description": "Configurable string templating, without separators.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/parse-it.git"
+  },
+  "keywords": [
+    "parser",
+    "templating",
+    "string"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/parse-it/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/parse-it#readme",
+  "dependencies": {
+    "regex-escape": "^3.4.0"
+  }
+}
