@@ -1,14 +1,18 @@
+
 # parse-it [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/parse-it.svg)](https://www.npmjs.com/package/parse-it) [![Downloads](https://img.shields.io/npm/dt/parse-it.svg)](https://www.npmjs.com/package/parse-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Configurable string templating, without separators.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save parse-it
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const parseIt = require("parse-it");
@@ -35,7 +39,8 @@ console.log(p.run("d/M/YYYY", [new Date(1989, 11, 20)]));
 // => 20/11/1989
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `ParseIt(obj)`
 The `ParseIt` class. It can be used to use the same data object but with different formats/arguments.
@@ -65,15 +70,18 @@ A wrapper around the `ParseIt` class. The `ParseIt` constructor is accessible us
 #### Return
 - **String** The result as string.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`formatoid`](https://github.com/IonicaBizau/formatoid#readme)
 
-## License
+ - [`formatoid`](https://github.com/IonicaBizau/formatoid#readme)—Tiny and fast module for formatting date objects.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
