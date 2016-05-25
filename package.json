@@ -1,6 +1,6 @@
 {
   "name": "parse-it",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Configurable string templating, without separators.",
   "main": "lib/index.js",
   "scripts": {
@@ -32,6 +32,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
